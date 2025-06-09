@@ -1,7 +1,7 @@
 
 ---
 
-## 🛠 `.github/workflows/dev.yaml` (Initial Codex-Signal)
+## 🛠 `.github/workflows/main.yaml` (Initial Codex-Signal)
 
 ```yaml
 name: "Nova UI Kickstart"
