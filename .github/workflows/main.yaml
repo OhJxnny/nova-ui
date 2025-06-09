@@ -1,0 +1,19 @@
+
+---
+
+## 🛠 `.github/workflows/dev.yaml` (Initial Codex-Signal)
+
+```yaml
+name: "Nova UI Kickstart"
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  codex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Init Context
+        run: echo "nova-ui = WebApp für KI-Schnittstelle. Ziel: PWA mit Kamera, Mikro und Chat."
